@@ -1,0 +1,11 @@
+Package: share-wifi
+Version: 1.2.0
+Section: net
+Priority: optional
+Architecture: all
+Depends: policykit-1, python3, python3-gi, python3-qrcode, gir1.2-gtk-3.0, network-manager
+Maintainer: Share Wi-Fi <maintainer@localhost>
+Description: Share saved Wi-Fi networks with a scannable QR code
+ Select a saved NetworkManager Wi-Fi connection, view its password,
+ and display a QR code that phones can scan to join the network.
+ Credentials are processed locally and are not written to disk.

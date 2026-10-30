@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Share Wi-Fi
+Comment=Show a saved Wi-Fi password and scannable QR code
+Exec=share-wifi
+Icon=network-wireless
+Terminal=false
+Categories=Network;
+Keywords=wifi;wireless;password;QR;share;
+StartupNotify=true
